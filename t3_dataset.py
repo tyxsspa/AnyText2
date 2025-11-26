@@ -222,7 +222,7 @@ def draw_glyph2(font, text, polygon, color, vertAng=10, scale=1, width=512, heig
             draw.text((rect[0][0] - text_width / 2, text_y_center - top), text, font=new_font, fill=tuple(color)+(255,))
         else:
             x_s = min(box[:, 0]) + _w // 2 - text_height // 2
-            y_s = min(box[:, 1])
+            y_s = min(box[:, 1]) - top
             for c in text:
                 draw.text((x_s, y_s), c, font=new_font, fill=tuple(color)+(255,))
                 _, _t, _, _b = draw.textbbox((0, 0), text=c, font=new_font)
