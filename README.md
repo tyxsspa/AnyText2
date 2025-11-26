@@ -35,7 +35,7 @@ conda activate anytext2
 
 ## 🔮Inference
 
-**[Recommend]**： We release a demo on [ModelScope](https://modelscope.cn/studios/damo/studio_anytext/summary)
+**[Recommend]**： We release a demo on [ModelScope](https://modelscope.cn/studios/iic/studio_anytext2)
 
 If you have advanced GPU (with at least 8G memory), it is recommended to deploy our demo as below, which includes usage instruction, user interface and abundant examples.
 ```bash
